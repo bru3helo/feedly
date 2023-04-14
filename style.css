@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+    
+  header {
+      align-items: center;
+      display: flex;
+      font-size: 1rem;
+      justify-content: space-between;
+      margin: 3.5rem 3rem 0;
+  
+  }
+
+  .logo{
+    overflow: clip;
+  }
+
+  nav{
+    align-items: center;
+    display: flex;
+  }
+
+  .fbutton{
+    display: inline-block;
+    position: relative;
+    margin-right: 2rem
+  }
+
+  .bpbutton{
+    position: relative;
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  .loginbutton{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--button-color, rgba(0, 0, 0, 0.15));
+    color: #757575;
+    color: var(--button-color, #757575);
+  }
+
+  .startbutton{
+    background-color: #2bb24c;
+    background-color: var(--button-color, #2bb24c);
+    color: #fff;
+  }
+
+
+  #text {
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #text h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+  #text p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  .bt {
+    display: block;
+    padding: 10px 16px;
+    background-color: #2bb24c;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .bt2 {
+    border: 5px solid #2bb24c;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .Imagem{
+    
+  }
