@@ -21,6 +21,10 @@ header {
   height: 32px;
 }
 
+.seta{
+  align-items: center;
+}
+
 nav{
   align-items: center;
   display: flex;
